@@ -8,15 +8,30 @@ body{
     background-size: cover;
 }
 
-h2 {
+h2, p {
     color: #AA3939;
     text-align: center;
     border: 5px solid rgb(170, 157, 57);
     cursor: pointer;
 }
 
+
+
 p{
-    color:black;
+    line-height: 50px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 110%;
+    font-family: Oswald;
+}
+
+img{
+    float: left
+}
+
+footer{
+    clear: both;
+    text-align: center;
 }
 
 button {
@@ -30,4 +45,20 @@ button:hover {
 li{
     list-style: none;
     display: inline-block;
+}
+
+.webtext{
+    border: 5px dashed green;
+}
+
+.active{
+    color: red;
+}
+
+#div1{
+    background: rgba(0,0,255,0.2);
+}
+
+#div2{
+    background: rgba(255,0,0,0.2);
 }
