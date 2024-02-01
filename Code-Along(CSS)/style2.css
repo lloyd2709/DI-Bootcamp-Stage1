@@ -1,0 +1,17 @@
+
+
+.boxmodel{
+        border: 5px solid red;
+        display: inline-block;
+        padding: 5px 50px 5px 50px ;
+                /*top right bottom left*/
+        margin: 0px 20px 0px 20px; /* space outside of the box*/
+}
+
+p {
+    font-size: 20px;
+}
+
+span{
+    font-size: 2em; /* means 2 multiplied by the existing font, i.e. regardless of the size of the font */
+}
