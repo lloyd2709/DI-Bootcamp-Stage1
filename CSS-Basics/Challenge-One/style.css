@@ -1,0 +1,19 @@
+
+body{
+    background-color: rgb(106, 164, 231);
+}
+
+body{
+    font-size: 20px;
+}
+
+ul{
+    text-transform: capitalize;
+    text-align: center;
+    list-style-type: none;
+}
+
+li:first-letter{
+    font-weight: bold;
+    font-size: 2em;
+}
