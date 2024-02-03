@@ -1,4 +1,8 @@
 
+body{
+    margin: 0px;   /* to add remove the left side starting space*/
+}
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -12,10 +16,25 @@ h1{
     width: 400px;
     border-right: 2px solid pink;
     text-align: center;
+    box-shadow: 4px 4px 5px #888888;
+    /* prefix to use if browser don't support the function
+        Check on : https://www.w3schools.com/cssref/css3_browsersupport.php
+        e.g.
+        -moz-box_shadow: 4px 4px 5px #888888; -- for mozilla
+        -ms-box_shadow: 4px 4px 5px #888888; -- for ms
+        -webkit-box_shadow: 4px 4px 5px #888888; -- for ms    
+    */
+    margin-top: 10px;
+
 }
 
 img{
     width: 450px;
     height: 300px;
     margin: 10px;
+    transition:  all 2s;
+}
+
+img:hover{
+    transform: scale(1.5);
 }
