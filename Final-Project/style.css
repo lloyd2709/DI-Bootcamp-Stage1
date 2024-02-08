@@ -53,6 +53,18 @@ header #nav ul li:hover:after{
 
 
 
+h2 span{
+    text-decoration: underline;
+    font-size:medium;
+    font-style: italic;
+    color: red;
+}
+
+h2 span a:visited{
+    text-decoration: none;
+    color: red;
+}
+
 
 
 
