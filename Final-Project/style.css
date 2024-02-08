@@ -1,0 +1,359 @@
+
+
+
+#nav{
+    width:85%;
+    margin:auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav .logo
+{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+header #nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 50px;    
+    font-family: 'Protest Revolution', sans-serif;
+    position: relative;
+    
+}
+
+header #nav ul li a
+{
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header #nav ul li::after{
+    content: '';
+    height: 5px;
+    width: 0%;
+    background: rgb(176, 219, 240);
+    position:absolute;
+    left:0;
+    bottom: -5px;
+    transition: 0.5s;
+
+}
+
+header #nav ul li:hover:after{   
+    width: 100%; 
+}
+
+
+
+
+
+
+/* section 1 */
+
+
+.about_container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    width: 100%;
+    height: 60%;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color:rgba(103, 101, 101, 0.1);
+}
+
+
+.about_container #about1 h2{
+    font-size: 2em;
+    font-family: 'Protest Revolution', sans-serif;
+}
+
+.about_container #about1 p{
+    width: 93%;
+}
+
+
+.about_container #aboutimage{
+    border-radius: 75%;
+    position:relative;
+    right: 100px;
+    height: 500px;
+    width: 500px;
+}
+
+
+
+
+
+/* section 2 */
+
+
+.about_container2{
+    display: flex;
+    align-items:left;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    width: 90%;
+    height: 60%;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+}
+
+
+.about_container2 h2{
+    font-size: 2em;
+    font-family: 'Protest Revolution', sans-serif;
+    margin: 0;
+    padding-top: 20px;
+    
+}
+
+.about_container2 h3{
+    font-size: 1.5em;
+    font-family: 'Protest Revolution', sans-serif;
+    text-align: center;
+    color: rgb(207, 25, 25);
+
+}
+
+
+
+
+/* Achievement section */
+
+
+
+.achievement_container{
+    display: flex;
+    align-items:left;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    width: 100%;
+    height: 80%;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color:rgba(103, 101, 101, 0.1);
+
+}
+
+
+.achievement_container h2{
+    font-size: 2em;
+    font-family: 'Protest Revolution', sans-serif;
+
+}
+
+
+/* Achievement 1 */
+
+.achievement_container .achievements1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.achievement_container .achievements1 p{
+    width: 80%;
+}
+
+.achievement_container #aboutimage2{
+    border-radius: 50%;
+    position:relative;
+    height: 300px;
+    width: 300px;
+}
+
+
+
+/* Achievement 2 */
+
+.achievement_container .achievements2{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.achievement_container .achievements2 p{
+    width: 80%;
+}
+
+.achievement_container #aboutimage3{
+    border-radius: 50%;
+    position:relative;
+    height: 300px;
+    width: 300px;
+}
+
+
+/* Achievement 3 */
+
+.achievement_container .achievements3{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.achievement_container .achievements3 p{
+    width: 80%;
+}
+
+.achievement_container #aboutimage4{
+    border-radius: 50%;
+    position:relative;
+    height: 300px;
+    width: 300px;
+}
+
+
+
+/* Achievement 4 */
+
+.achievement_container .achievements4{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.achievement_container .achievements4 p{
+    width: 80%;
+}
+
+.achievement_container #aboutimage5{
+    border-radius: 50%;
+    position:relative;
+    height: 300px;
+    width: 300px;
+}
+
+
+
+
+/* Video section*/
+
+
+
+.videos_container{
+    display: flex;
+    align-items:left;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    width: 100%;
+    height: 80%;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: 1px solid blueviolet;
+}
+
+
+.videos_container h2{
+    font-size: 2em;
+    font-family: 'Protest Revolution', sans-serif;
+
+}
+
+
+.videos_container #aboutimage6{
+    border-radius: 50%;
+    position:relative;
+    height: 300px;
+    width: 300px;
+}
+
+
+#button_container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 2px solid red;
+    background: transparent;
+    cursor: pointer;
+    color: red;
+    position: relative;
+    overflow: hidden;
+
+}
+
+button span{
+    background: red;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position:absolute;
+    left:0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+
+button a{
+    text-decoration:  none;
+}
+
+button a:visited{
+    text-decoration: none;
+    color: red;
+}
+
+
+button:hover span{
+    width: 100%;
+    color: white;
+}
+
+button:hover{
+    color: white;
+    border: none;
+}
+
+button:hover a{
+    color: white;
+    border: none;
+}
+
+
+
+
+
+footer
+{
+    text-align: center;
+    color: red;
+}
+
+
