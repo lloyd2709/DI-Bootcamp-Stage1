@@ -278,7 +278,6 @@ h2 span a:visited{
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    border: 1px solid blueviolet;
 }
 
 
@@ -296,6 +295,39 @@ h2 span a:visited{
     width: 300px;
 }
 
+.videos_container .videos_lindan{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+   width: 80%;
+   height: 100%;
+}
+
+
+.videos_container .videos_lindan h3{
+    margin-top: 100px;
+ }
+
+
+
+.videos_container .videos_lindan video{
+    width: 1000px;
+    height: 100%;
+    padding: 20px;
+    transition: 0.5s;
+ }
+
+ .videos_container .videos_lindan video:hover{
+    width: 1200px;
+ }
+
+
+
+
+
+/* buttons */
 
 #button_container{
     display: flex;
