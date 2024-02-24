@@ -1,0 +1,59 @@
+
+
+#cat_sense span{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+
+}
+
+.Media{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+#cat_picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#lion_picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.red_box{
+    display: flex;
+    border: 2px solid;
+    border-color: red;
+    width: 1500px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width:1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container div{
+    display: block;
+    border: 1px solid;
+    border-color: black;
+    width: 1000px;
+    text-align: center;
+}
